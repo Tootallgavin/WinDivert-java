@@ -4,7 +4,9 @@ import com.sun.jna.platform.win32.WinNT;
 
 import static com.sun.jna.platform.win32.WinBase.INVALID_HANDLE_VALUE;
 
-
+/**
+ * A big thanks to https://github.com/v1ar31/FireWall
+ */
 public class WinDivertDriver {
     private WinDivertLibrary lib;
     public WinNT.HANDLE handle;
